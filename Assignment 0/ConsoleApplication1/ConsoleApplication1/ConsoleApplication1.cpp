@@ -1,9 +1,9 @@
-#include "pch.h"
+//#include "pch.h"
 #include <iostream>
 #include <math.h>
 #include <tuple>
 #include <fstream>
-#include "ConsoleApplication1.h"
+//#include "ConsoleApplication1.h"
 #include <string>
 #include <stdexcept>
 
@@ -36,6 +36,8 @@ std::tuple<int, int, int> HSVtoRGB(std::tuple<float, float, float> HSV) {
 
 	std::tie(hue, saturation, value) = HSV;
 #endif
+
+	std::cout << "HSV Values are " << (hue) << ", " << (saturation) << ", " << (value) << std::endl;
 	// If by chance have hue above 360, shift it back to within 0 to 360.
 	hue = fmod(hue, 360.0);
 
@@ -71,6 +73,8 @@ std::tuple<int, int, int> HSVtoRGB(std::tuple<float, float, float> HSV) {
 void setColor(int posX, int posY, int centX, int centY, int rad, std::ofstream& file) {
 
 	long distFromCent = std::sqrt(std::pow((posX - centX), 2) + std::pow((posY - centY), 2));
+
+	//std::cout << "Running for " << posX << "," << posY << " with distance " << distFromCent << std::endl;
 
 	if (distFromCent > rad) {
 		// Set Black color for area outside the circle

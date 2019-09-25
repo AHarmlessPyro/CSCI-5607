@@ -1,0 +1,122 @@
+﻿  ConsoleApplication1.cpp
+c:\users\ninad sinha\google drive\study stuff\csci\csci-5607\assignment 0\consoleapplication1\consoleapplication1\consoleapplication1.cpp(75): warning C4244: 'initializing': conversion from 'double' to 'long', possible loss of data
+c:\users\ninad sinha\google drive\study stuff\csci\csci-5607\assignment 0\consoleapplication1\consoleapplication1\consoleapplication1.cpp(132): warning C4101: 'e': unreferenced local variable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\tuple(236): warning C4244: 'initializing': conversion from '_Ty' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Ty=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\tuple(357): note: see reference to function template instantiation 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' being compiled
+          with
+          [
+              _This=int,
+              _Ty=double,
+              _Other=double
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\tuple(358): note: see reference to function template instantiation 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' being compiled
+          with
+          [
+              _This=int,
+              _Ty=double,
+              _Other=double
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\tuple(1035): note: see reference to function template instantiation 'std::tuple<int,int,int>::tuple<std::_Exact_args_t,double,double,double,0>(_Tag,_This2 &&,double &&,double &&)' being compiled
+          with
+          [
+              _Tag=std::_Exact_args_t,
+              _This2=double
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\tuple(1035): note: see reference to function template instantiation 'std::tuple<int,int,int>::tuple<std::_Exact_args_t,double,double,double,0>(_Tag,_This2 &&,double &&,double &&)' being compiled
+          with
+          [
+              _Tag=std::_Exact_args_t,
+              _This2=double
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\tuple(372): note: see reference to function template instantiation 'std::tuple<int,int,int>::tuple<std::_Unpack_tuple_t,_Ty,0,1,2,0>(_Tag,_Tpl &&,std::integer_sequence<unsigned __int64,0,1,2>)' being compiled
+          with
+          [
+              _Ty=std::tuple<double,double,double>,
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<double,double,double>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\tuple(372): note: see reference to function template instantiation 'std::tuple<int,int,int>::tuple<std::_Unpack_tuple_t,_Ty,0,1,2,0>(_Tag,_Tpl &&,std::integer_sequence<unsigned __int64,0,1,2>)' being compiled
+          with
+          [
+              _Ty=std::tuple<double,double,double>,
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<double,double,double>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\tuple(516): note: see reference to function template instantiation 'std::tuple<int,int,int>::tuple<std::_Unpack_tuple_t,std::tuple<double,double,double>,0>(_Tag,_Tpl &&)' being compiled
+          with
+          [
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<double,double,double>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\tuple(516): note: see reference to function template instantiation 'std::tuple<int,int,int>::tuple<std::_Unpack_tuple_t,std::tuple<double,double,double>,0>(_Tag,_Tpl &&)' being compiled
+          with
+          [
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<double,double,double>
+          ]
+  c:\users\ninad sinha\google drive\study stuff\csci\csci-5607\assignment 0\consoleapplication1\consoleapplication1\consoleapplication1.cpp(53): note: see reference to function template instantiation 'std::tuple<int,int,int>::tuple<double,double,double,0>(std::tuple<double,double,double> &&) noexcept' being compiled
+  c:\users\ninad sinha\google drive\study stuff\csci\csci-5607\assignment 0\consoleapplication1\consoleapplication1\consoleapplication1.cpp(53): note: see reference to function template instantiation 'std::tuple<int,int,int>::tuple<double,double,double,0>(std::tuple<double,double,double> &&) noexcept' being compiled
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\tuple(236): warning C4244: 'initializing': conversion from 'const double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\tuple(357): note: see reference to function template instantiation 'std::_Tuple_val<_This>::_Tuple_val<const double&>(_Other)' being compiled
+          with
+          [
+              _This=float,
+              _Other=const double &
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\tuple(358): note: see reference to function template instantiation 'std::_Tuple_val<_This>::_Tuple_val<const double&>(_Other)' being compiled
+          with
+          [
+              _This=float,
+              _Other=const double &
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\tuple(1035): note: see reference to function template instantiation 'std::tuple<float,float,float>::tuple<std::_Exact_args_t,const double&,const double&,const double&,0>(_Tag,_This2,const double &,const double &)' being compiled
+          with
+          [
+              _Tag=std::_Exact_args_t,
+              _This2=const double &
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\tuple(1035): note: see reference to function template instantiation 'std::tuple<float,float,float>::tuple<std::_Exact_args_t,const double&,const double&,const double&,0>(_Tag,_This2,const double &,const double &)' being compiled
+          with
+          [
+              _Tag=std::_Exact_args_t,
+              _This2=const double &
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\tuple(372): note: see reference to function template instantiation 'std::tuple<float,float,float>::tuple<std::_Unpack_tuple_t,const std::tuple<double,double,double>&,0,1,2,0>(_Tag,_Tpl,std::integer_sequence<unsigned __int64,0,1,2>)' being compiled
+          with
+          [
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=const std::tuple<double,double,double> &
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\tuple(372): note: see reference to function template instantiation 'std::tuple<float,float,float>::tuple<std::_Unpack_tuple_t,const std::tuple<double,double,double>&,0,1,2,0>(_Tag,_Tpl,std::integer_sequence<unsigned __int64,0,1,2>)' being compiled
+          with
+          [
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=const std::tuple<double,double,double> &
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\tuple(494): note: see reference to function template instantiation 'std::tuple<float,float,float>::tuple<std::_Unpack_tuple_t,const std::tuple<double,double,double>&,0>(_Tag,_Tpl)' being compiled
+          with
+          [
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=const std::tuple<double,double,double> &
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\tuple(494): note: see reference to function template instantiation 'std::tuple<float,float,float>::tuple<std::_Unpack_tuple_t,const std::tuple<double,double,double>&,0>(_Tag,_Tpl)' being compiled
+          with
+          [
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=const std::tuple<double,double,double> &
+          ]
+  c:\users\ninad sinha\google drive\study stuff\csci\csci-5607\assignment 0\consoleapplication1\consoleapplication1\consoleapplication1.cpp(100): note: see reference to function template instantiation 'std::tuple<float,float,float>::tuple<double,double,double,0>(const std::tuple<double,double,double> &) noexcept' being compiled
+  c:\users\ninad sinha\google drive\study stuff\csci\csci-5607\assignment 0\consoleapplication1\consoleapplication1\consoleapplication1.cpp(100): note: see reference to function template instantiation 'std::tuple<float,float,float>::tuple<double,double,double,0>(const std::tuple<double,double,double> &) noexcept' being compiled
+  ConsoleApplication1.vcxproj -> C:\Users\Ninad Sinha\Google Drive\study stuff\CSCI\CSCI-5607\Assignment 0\ConsoleApplication1\x64\Debug\Assignment 0.exe
